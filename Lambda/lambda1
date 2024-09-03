@@ -1,0 +1,7 @@
+nums = [x for x in range(1,10)]
+nums_even = list(filter(lambda x: x%2==0, nums))
+nums_odd = list(filter(lambda x: x%2!=0, nums))
+
+print(nums)
+print(nums_even)
+print(nums_odd)

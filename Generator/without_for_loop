@@ -1,0 +1,11 @@
+first_list = []
+
+#With For-Loop
+for i in range(5):
+    first_list.append(10**i)
+
+print(first_list)
+
+#Without For-Loop
+second_list = [10**x for x in range(10)]
+print(second_list)
